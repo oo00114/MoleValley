@@ -1,0 +1,2 @@
+module MvCoreHelper
+end

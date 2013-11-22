@@ -1,0 +1,112 @@
+body {
+  background-color:#DCDDD8;
+  color: blue;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin:0;
+}
+
+ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+#container{
+  width:800px;
+  margin:auto auto;
+  background-color:white;
+  border:3px solid #e1e1e1;
+  padding:0px;
+  box-shadow: 5px 5px 5px #858885
+
+}
+
+#headerdiv{
+  height:100px;
+  padding:10px;
+  background-color:#D74B4B;
+  color:white;
+}
+
+p {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  padding:10px;
+  color:black;
+}
+
+pre {
+  background-color: #800080;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: green;
+  &:visited {
+    color: red;
+  }
+  &:hover {
+    color: blue;
+    background-color: #000;
+  }
+}
+
+#container{
+  width:1000;
+  border:1px solid #e1e1e1;
+}
+
+#headerdiv a{
+  color:white;
+  font-size:.8em;
+  font-family:'Helvetica';
+}
+
+#headerdiv nav{
+  text-align:right;
+  margin-top:40px;
+  font-weight:bold;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
